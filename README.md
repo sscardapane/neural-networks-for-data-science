@@ -11,3 +11,9 @@ The course uses TensorFlow 2.0, moving from its core library of linear algebra u
 It describes the linear algebra core of TensorFlow 2.0, before moving on to automatic differentiation with tf.GradientTape and a simple example of gradient descent.
 
 [[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_1_Basics_and_automatic_differentiation.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_1_Basics_and_automatic_differentiation.ipynb)
+
+### Lab session 2 - Linear models for regression and classification
+
+We use the low-level API of TensorFlow to implement a simple linear regression algorithm. Then, we extend the example to binary classification by substituting some of our previously-defined functions with the tf.keras equivalents.
+
+[[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_2_Linear_models.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_2_Linear_models.ipynb)
