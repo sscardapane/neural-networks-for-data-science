@@ -17,3 +17,9 @@ It describes the linear algebra core of TensorFlow 2.0, before moving on to auto
 We use the low-level API of TensorFlow to implement a simple linear regression algorithm. Then, we extend the example to binary classification by substituting some of our previously-defined functions with the tf.keras equivalents.
 
 [[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_2_Linear_models.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_2_Linear_models.ipynb)
+
+### Lab session 3 - Feedforward neural networks with tf.data and tf.layers
+
+We build a feedforward neural network, this time on a realistic binary classification problem (prediction of super-symmetric particles from simulated measurements of a particle collider). We consider the use of tf.data to iterate on the dataset, and tf.keras.layers to actually build the model.
+
+[[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_3_Feedforward_neural_networks.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_3_Feedforward_neural_networks.ipynb)
