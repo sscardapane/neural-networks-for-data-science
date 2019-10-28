@@ -23,3 +23,9 @@ We use the low-level API of TensorFlow to implement a simple linear regression a
 We build a feedforward neural network, this time on a realistic binary classification problem (prediction of super-symmetric particles from simulated measurements of a particle collider). We consider the use of tf.data to iterate on the dataset, and tf.keras.layers to actually build the model.
 
 [[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_3_Feedforward_neural_networks.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_3_Feedforward_neural_networks.ipynb)
+
+### Lab session 4 - Building convolutional neural networks
+
+We train a VGG convolutional neural network on a dataset released for the [In Codice Ratio](http://www.inf.uniroma3.it/db/icr/) (ICR) project. The dataset considers optical character recognition on Latin handwritten characters, segmeneted from a portion of the Vatican Secret Archives. We introduce tf.layers, keras.Model, and the ImageDataGenerator, along with callbacks and the TensorBoard.
+
+[[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_4_Building_convolutional_neural_networks.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_4_Building_convolutional_neural_networks.ipynb)
