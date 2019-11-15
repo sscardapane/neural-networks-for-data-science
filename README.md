@@ -29,3 +29,9 @@ We build a feedforward neural network, this time on a realistic binary classific
 We train a VGG convolutional neural network on a dataset released for the [In Codice Ratio](http://www.inf.uniroma3.it/db/icr/) (ICR) project. The dataset considers optical character recognition on Latin handwritten characters, segmeneted from a portion of the Vatican Secret Archives. We introduce tf.layers, keras.Model, and the ImageDataGenerator, along with callbacks and the TensorBoard.
 
 [[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_4_Building_convolutional_neural_networks.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_4_Building_convolutional_neural_networks.ipynb)
+
+### Lab session 5 - Advanced convolutional networks
+
+We build from scratch multiple CNNs (including among their layers batch normalization, dropout, and residual connections), with regularization and a custom initialization function, on a toy autonomous driving task. We show how to create a flexible image pipeline with tf.data, and how to improve code efficiency with tf.function.
+
+[[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_5_CNNs_from_scratch.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_5_CNNs_from_scratch.ipynb)
