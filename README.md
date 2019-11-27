@@ -35,3 +35,9 @@ We train a VGG convolutional neural network on a dataset released for the [In Co
 We build from scratch multiple CNNs (including among their layers batch normalization, dropout, and residual connections), with regularization and a custom initialization function, on a toy autonomous driving task. We show how to create a flexible image pipeline with tf.data, and how to improve code efficiency with tf.function.
 
 [[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_5_CNNs_from_scratch.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_5_CNNs_from_scratch.ipynb)
+
+### Lab session 6 - Text classification with neural network
+
+We build several text classification models on the IMDB reviews dataset: (i) a linear classifier with pre-trained embeddings; (ii) a linear classifier with learned word embeddings and manual tokenization; (iii) a convolutional neural network with learned embeddings. We also introduce TensorFlow Datasets and TensorFlow Hub.
+
+[[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_6_Text_classification_with_neural_networks.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_6_Text_classification_with_neural_networks.ipynb)
