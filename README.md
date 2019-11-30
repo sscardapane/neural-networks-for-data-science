@@ -41,3 +41,9 @@ We build from scratch multiple CNNs (including among their layers batch normaliz
 We build several text classification models on the IMDB reviews dataset: (i) a linear classifier with pre-trained embeddings; (ii) a linear classifier with learned word embeddings and manual tokenization; (iii) a convolutional neural network with learned embeddings. We also introduce TensorFlow Datasets and TensorFlow Hub.
 
 [[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_6_Text_classification_with_neural_networks.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_6_Text_classification_with_neural_networks.ipynb)
+
+### Lab session (extra) - Recurrent neural networks
+
+A series of examples on how to use recurrent neural networks: first by counting symbols, then by building a more elaborate encoder/decoder architecture for sorting. We also introduce a series of important layers (Masking, TimeDistributed), and the padded batch from the tf.data.Dataset object.
+
+[[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_extra_Recurrent_neural_networks.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_extra_Recurrent_neural_networks.ipynb)
