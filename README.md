@@ -47,3 +47,9 @@ We build several text classification models on the IMDB reviews dataset: (i) a l
 A series of examples on how to use recurrent neural networks: first by counting symbols, then by building a more elaborate encoder/decoder architecture for sorting. We also introduce a series of important layers (Masking, TimeDistributed), and the padded batch from the tf.data.Dataset object.
 
 [[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_extra_Recurrent_neural_networks.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_extra_Recurrent_neural_networks.ipynb)
+
+### Lab session (extra) - Robustness and interpretability
+
+We evaluate the robustness of a trained CNN on a simple adversarial attack using the IBM Adversarial Robustness 360 Toolbox. Then, we explore the problem of interpretability with tf-explain and LIME.
+
+[[See online on nbviewer]](https://nbviewer.jupyter.org/github/sscardapane/neural-networks-for-data-science/blob/master/Notebook_extra_Adversarial_robustness_and_interpretability.ipynb) - [[Direct download]](https://github.com/sscardapane/neural-networks-for-data-science/blob/master/Notebook_extra_Adversarial_robustness_and_interpretability.ipynb)
